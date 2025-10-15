@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import "tailwindcss";
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(254, 215, 173));
+
+}
+html {
+  scroll-behavior: smooth;
+}
