@@ -66,7 +66,7 @@ export default function Navbar() {
             onClick={() => setOpen(false)}
             className="block px-5 py-2 rounded-full border-2 border-[rgb(109,67,0)] text-black hover:bg-[rgb(109,67,0)] hover:text-white transition-all duration-300"
           >
-            Contact Us
+            Contact Me
           </a>
         </div>
       )}

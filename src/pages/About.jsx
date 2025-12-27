@@ -6,7 +6,7 @@ const About = () => {
   return (
     <motion.section
       id="about"
-      className="min-h-[80vh] flex flex-col items-center justify-center gap-10 px-8 py-20 mt-20 md:mt-0"
+      className="min-h-[80vh] flex flex-col items-center justify-center gap-10 px-8 py-20 mt-0 md:mt-0"
       variants={containerStagger}
       initial="hidden"
       whileInView="visible"

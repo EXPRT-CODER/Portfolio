@@ -39,7 +39,7 @@ const Skills = () => {
   return (
     <motion.section
       id="skills"
-      className="min-h-screen flex flex-col items-center py-20 px-6"
+      className="min-h-screen flex flex-col items-center pt-20 pb-5 px-6"
       variants={containerStagger}
       initial="hidden"
       whileInView="visible"
