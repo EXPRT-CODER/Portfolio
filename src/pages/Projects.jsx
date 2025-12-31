@@ -19,7 +19,7 @@ const projects = [
     title: "Birthday Wisher",
     description: "A Dynamic Birthday Wisher Application. Anyone can use it.",
     tech: ["React", "Tailwind", "JS"],
-    url: "https://happy-birthday-by-exprt-coder.netlify.app/Getlink",
+    url: "https://birthday-wisher-exprt-coder.netlify.app/",
   },
   {
     title: "Weather Forecast App",
