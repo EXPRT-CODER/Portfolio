@@ -2,8 +2,18 @@ import React from "react";
 import { FaGithub, FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { containerStagger, fadeUp, fadeInScale } from "../animations/variants";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const Home = () => {
+
+  const [text] = useTypewriter({
+    words: ["Developer", "Designer", "Bachelor", "GAMER", "Rider"],
+    loop: true,
+    typeSpeed: 100,
+    deleteSpeed: 60,
+    delaySpeed: 1600,
+  });
+
   return (
     <motion.section
       id="home"
@@ -36,9 +46,9 @@ const Home = () => {
           src="/Home.png"
           alt="Vishal"
           className="
-            w-[100%]        /* mobile big */
-            md:w-[75%]     /* tablet big */
-            lg:w-[95%]     /* desktop SAME AS BEFORE */
+            w-[100%]      
+            md:w-[75%]     
+            lg:w-[95%]     
             h-auto
           "
         />
@@ -55,16 +65,16 @@ const Home = () => {
           px-2
           md:px-6
           lg:px-0
-          lg:pl-25       /* desktop SAME AS BEFORE */
+          lg:pl-25      
         "
         variants={containerStagger}
       >
         {/* TITLE */}
         <motion.h1
           className="
-            text-[2.4rem]      /* mobile */
-            md:text-[2.8rem]   /* tablet */
-            lg:text-[3rem]     /* desktop SAME */
+            text-[2.4rem]      
+            md:text-[2.8rem]  
+            lg:text-[3rem]     
             font-bold
             leading-tight
           "
@@ -78,9 +88,9 @@ const Home = () => {
 
         <motion.h2
           className="
-            text-[1.9rem]      /* mobile */
-            md:text-[2.1rem]   /* tablet */
-            lg:text-[2.3rem]   /* desktop SAME */
+            text-[1.9rem]      
+            md:text-[2.1rem]  
+            lg:text-[2.3rem]  
             font-semibold
             leading-tight
           "
@@ -88,17 +98,20 @@ const Home = () => {
         >
           I&apos;m a{" "}
           <span className="text-[rgb(109,67,0)] drop-shadow-[0_0_10px_rgb(109,67,0)]">
-            Developer
+            {text}
           </span>
+          <Cursor
+            cursorStyle="│"
+            cursorColor="rgb(109,67,0)"
+            style={{ fontWeight: 300, fontSize: "0.9em" }}
+          />
         </motion.h2>
-
         {/* DESCRIPTION */}
         <motion.p
           className="
-            text-[1.05rem]     /* mobile bigger */
-            md:text-[1.1rem]   /* tablet */
-            lg:text-[1rem]     /* desktop SAME */
-            text-gray-700
+            text-[1.05rem]     
+            md:text-[1.1rem]   
+            lg:text-[1rem]     
             max-w-lg
           "
           variants={fadeUp}

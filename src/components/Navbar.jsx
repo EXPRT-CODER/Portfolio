@@ -16,7 +16,7 @@ export default function Navbar() {
         </h1>
 
         {/* Desktop Links */}
-        <div className="hidden md:flex items-center gap-12 text-[1.2rem] font-medium">
+        <div className="hidden lg:flex items-center gap-12 text-[1.2rem] font-medium">
           {links.map((link) => (
             <a
               key={link}
@@ -41,7 +41,7 @@ export default function Navbar() {
 
         {/* Mobile Menu Icon */}
         <button
-          className="md:hidden text-2xl text-black"
+          className="lg:hidden text-2xl text-black"
           onClick={() => setOpen(!open)}
         >
           {open ? <FaTimes /> : <FaBars />}
@@ -50,7 +50,7 @@ export default function Navbar() {
 
       {/* Mobile Dropdown */}
       {open && (
-        <div className="md:hidden bg-gradient-to-r drop-shadow-[0_0_20px_rgb(109,67,0)] shadow-md pb-4 px-4 space-y-4 text-center text-[1.2rem] font-medium">
+        <div className="lg:hidden bg-gradient-to-r drop-shadow-[0_0_20px_rgb(109,67,0)] shadow-md pb-4 px-4 space-y-4 text-center text-[1.2rem] font-medium">
           {links.map((link) => (
             <a
               key={link}

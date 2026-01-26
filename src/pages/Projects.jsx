@@ -10,16 +10,10 @@ const projects = [
     url: "#",
   },
   {
-    title: "Chat App (By Sumit)",
-    description: "Real-time chat app using Node.js and React APIs.",
-    tech: ["Node.js", "React", "Tailwind"],
-    url: "https://sumyychat.netlify.app/signup",
-  },
-  {
     title: "Birthday Wisher",
     description: "A Dynamic Birthday Wisher Application. Anyone can use it.",
     tech: ["React", "Tailwind", "JS"],
-    url: "https://happy-birthday-by-exprt-coder.netlify.app/Getlink",
+    url: "https://birthday-wisher-exprt-coder.netlify.app/",
   },
   {
     title: "Weather Forecast App",
@@ -28,16 +22,24 @@ const projects = [
     url: "https://weather-app-exprt-coder.netlify.app/GetStart",
   },
   {
+    title: "The CAT",
+    description: "Limitless Cat's Facts and Images.",
+    tech: ["Node.js", "React", "Tailwind"],
+    url: "https://sumyychat.netlify.app/signup",
+  },
+ {
+  title: "Dream Team Gym App",
+  description:
+    "A Fitness platform. track progress, fitness knowledge, food & nutrition.",
+  tech: ["React", "Tailwind CSS", "JavaScript"],
+  url: "https://dream-team-gym.netlify.app",
+  },
+
+  {
     title: "Sudoku Solver",
     description: "AI-powered Sudoku solver using backtracking algorithm.",
     tech: ["HTML", "CSS", "JS"],
     url: "https://exprt-coder.github.io/Sudoku-Solver/",
-  },
-  {
-    title: "Login Page Design",
-    description: "Sleek and modern login page with form validation.",
-    tech: ["React", "Tailwind", "JavaScript"],
-    url: "#",
   },
 ];
 
@@ -45,7 +47,7 @@ export default function Projects() {
   return (
     <motion.section
       id="projects"
-      className="min-h-screen flex flex-col items-center justify-center py-20 px-6"
+      className="min-h-screen flex flex-col items-center justify-start py-20 px-6"
       variants={containerStagger}
       initial="hidden"
       whileInView="visible"
