@@ -25,7 +25,7 @@ const projects = [
     title: "The CAT",
     description: "Limitless Cat's Facts and Images.",
     tech: ["Node.js", "React", "Tailwind"],
-    url: "https://sumyychat.netlify.app/signup",
+    url: "https://the-cat-exprt-coder.netlify.app/",
   },
  {
   title: "Dream Team Gym App",
