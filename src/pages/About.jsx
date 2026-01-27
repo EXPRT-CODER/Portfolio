@@ -63,8 +63,8 @@ const About = () => {
         >
           When I’m not coding, I enjoy exploring new technology trends, playing
           video games like GTA V , Minecraft and mainly BGMI , if you want to play with me then this is my UID: 5763230354 
-          send request and i will play with you. and also i love designing creative UI concepts. and I also go to the GYM , 
-          if you wanna see my GYM pics then check my ig Highlights
+          send request and i will play with you. I also go to the GYM , 
+          if you wanna see my GYM pics then check my ig Highlights . and i love Designing Creative UI Concepts.
         </motion.p>
       </motion.div>
     </motion.section>
