@@ -50,8 +50,8 @@ export default function Contact() {
         transition={{ duration: 0.5, delay: 0.2 }}
         className="text-gray-700 text-center mb-10 max-w-md"
       >
-        Feel free to reach out for collaborations, projects, or just say hi 👋  
-        I’ll get back to you as soon as possible!
+        Feel free to reach out for collaborations, projects, or just say hi 👋.
+        I’ll Reply by Email ASAP!
       </motion.p>
 
       {/* ✅ Now using handleSubmit */}
