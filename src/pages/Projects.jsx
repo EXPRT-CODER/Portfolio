@@ -10,6 +10,12 @@ const projects = [
     url: "#",
   },
   {
+    title: "TIC TAC TOE",
+    description: "Backend-powered Tic Tac Toe , anyone can play from anywhere.",
+    tech: ["React", "Tailwind", "JS"],
+    url: "https://tic-tac-toe-exprt-coder.netlify.app/",
+  },
+  {
     title: "Birthday Wisher",
     description: "A Dynamic Birthday Wisher Application. Anyone can use it.",
     tech: ["React", "Tailwind", "JS"],
@@ -31,15 +37,8 @@ const projects = [
   title: "Dream Team Gym App",
   description:
     "A Fitness platform. track progress, fitness knowledge, food & nutrition.",
-  tech: ["React", "Tailwind CSS", "JavaScript"],
+  tech: ["React", "Tailwind", "JS"],
   url: "https://dream-team-gym.netlify.app",
-  },
-
-  {
-    title: "Sudoku Solver",
-    description: "AI-powered Sudoku solver using backtracking algorithm.",
-    tech: ["HTML", "CSS", "JS"],
-    url: "https://exprt-coder.github.io/Sudoku-Solver/",
   },
 ];
 
