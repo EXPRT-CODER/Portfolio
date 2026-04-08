@@ -11,7 +11,7 @@ const projects = [
   },
   {
     title: "TIC TAC TOE",
-    description: "Backend-powered Tic Tac Toe , anyone can play from anywhere.",
+    description: "Backend-powered Tic Tac Toe , anyone can play from anywhere with anyone.",
     tech: ["React", "Tailwind", "JS"],
     url: "https://tic-tac-toe-exprt-coder.netlify.app/",
   },
