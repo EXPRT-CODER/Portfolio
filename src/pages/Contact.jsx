@@ -7,7 +7,7 @@ export default function Contact() {
   const [status, setStatus] = useState(""); // ✅ to show feedback message
 
   const check = (val) => {
-    if (val.toLowerCase() === "anshika") setShow(true);
+    if (val.toLowerCase() === "ishika") setShow(true);
     else setShow(false);
   };
 
